@@ -13,15 +13,15 @@ the twitter background image profile displayed properly and there were proper de
 ## Features Implemented(required)
 
 * Hamburger menu
-..* Dragging anywhere in the view should reveal the menu.
-..* The menu should include links to your profile, the home timeline, and the mentions view.
+⋅⋅* Dragging anywhere in the view should reveal the menu.
+⋅⋅* The menu should include links to your profile, the home timeline, and the mentions view.
 
 * Profile page
-..* Contains the user header view
-..* Contains a section with the users basic stats: # tweets, # following, # followers
+⋅⋅* Contains the user header view
+⋅⋅* Contains a section with the users basic stats: # tweets, # following, # followers
 
 * Home Timeline
-..* Tapping on a user image should bring up that user's profile page (I also hooked up the detail view page's user's image to go to Profile page)
+⋅⋅* Tapping on a user image should bring up that user's profile page (I also hooked up the detail view page's user's image to go to Profile page)
 
 
 ## Installation
