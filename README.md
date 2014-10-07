@@ -1,25 +1,27 @@
 
-Twitter App
+Twitter Redux App
 ================
 ## Synopsis
 
-This is the code for the Week 3 Project: Twitter
+This is the code for the Week 4 Project: Twitter Redux
 
 ## Number of hours spent
 
-I spent about 12 hours on doing this project. I think the most time consuming aspect with fooling around with getting the auto layout looking
-good
+I spent about 10 hours on doing this project. I first updated the previous week's Twitter app with some of the suggestions from the review. Most of the challenge was making sure that 
+the twitter background image profile displayed properly and there were proper delegates to navigate between the views.
 
 ## Features Implemented(required)
 
-* User can sign in using OAuth login flow
-* User can view last 20 tweets from their home timeline
-* The current signed in user will be persisted across restarts
-* In the home timeline, user can view tweet with the user profile picture, username, tweet text, and timestamp. In other words, design the custom cell with the proper Auto Layout settings. You will also need to augment the model classes.
-* User can pull to refresh
-* User can compose a new tweet by tapping on a compose button.
-* User can tap on a tweet to view it, with controls to retweet, favorite, and reply.
-* Optional: Replies should be prefixed with the username and the reply_id should be set when posting the tweet
+*Hamburger menu
+**Dragging anywhere in the view should reveal the menu.
+**The menu should include links to your profile, the home timeline, and the mentions view.
+
+*Profile page
+**Contains the user header view
+**Contains a section with the users basic stats: # tweets, # following, # followers
+
+*Home Timeline
+**Tapping on a user image should bring up that user's profile page (I also hooked up the detail view page's user's image to go to Profile page)
 
 
 ## Installation
