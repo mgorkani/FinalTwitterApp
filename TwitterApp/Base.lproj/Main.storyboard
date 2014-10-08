@@ -38,7 +38,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="Yh2-tv-G2Z" kind="presentation" identifier="loginSegue" id="fYG-kj-9xF"/>
+                        <segue destination="6bg-Yp-mXU" kind="show" identifier="loginSegue" id="nHU-g6-igb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
