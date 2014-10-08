@@ -44,7 +44,7 @@ class ContainerViewController: UIViewController, NavigateTwitterProtocol {
         // Do any additional setup after loading the view.
         var storyboard = UIStoryboard(name:"Main",bundle: nil)
         let homeController:UIViewController = storyboard.instantiateViewControllerWithIdentifier("TweetsNavigationController") as UIViewController
-        viewControllers["home"] = homeController
+        viewControllers["tweets_timeline"] = homeController
         let profileController:UIViewController = storyboard.instantiateViewControllerWithIdentifier("ProfileNavigationController") as UIViewController
         viewControllers["profile"] = profileController
         self.activeViewController = homeController
@@ -87,7 +87,7 @@ class ContainerViewController: UIViewController, NavigateTwitterProtocol {
     }
     
     func switchToTweetsList(type:String="") {
-        self.activeViewController = viewControllers["home"] as? UIViewController
+        self.activeViewController = viewControllers["tweets_timeline"] as? UIViewController
         let controller = self.activeViewController as UINavigationController
         let tweetsController = controller.viewControllers[0] as TweetsViewController
         if (!type.isEmpty) {
